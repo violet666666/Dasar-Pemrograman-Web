@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.navbar ul li a.active {
+    background-color: #04AA6D;
+}
+
+.navbar ul li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar ul li.right,
+    .navbar ul li {
+        float: none;
+    }
+}
