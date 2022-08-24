@@ -129,14 +129,17 @@ address h3 {
 }
 
 footer {
-    padding: 50px;
     text-align: center;
+}
+
+#contact {
+    padding: 20px;
 }
 
 .copyright {
     width: 100%;
     color: white;
-    padding: 10px;
+    padding: 20px;
     background-color: black;
 }
 
