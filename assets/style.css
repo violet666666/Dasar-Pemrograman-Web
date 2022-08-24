@@ -169,6 +169,18 @@ footer {
     transform: translateY(4px);
 }
 
+#sosmed {
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+}
+
+#sosmedOutput {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
 @media screen and (max-width:768px) {
 
     .container,
