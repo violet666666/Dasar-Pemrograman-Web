@@ -5,83 +5,248 @@
     <title>Tegar ALfalakh Thamrin</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Note -->
-    <div style="background:yellow;padding:5px">
-        <h4 style="text-align:center">Resize the browser window to see the responsive effect.</h4>
-    </div>
-
     <!-- Header -->
-    <div class="header">
-        <h1>My Website</h1>
-        <p>With a <b>flexible</b> layout.</p>
-    </div>
+    <header>
+        <div class="head-txt">
+            <h1>Makassar</h1>
+            <p>Sekali layar terkembang, pantang biduk surut ke pantai</p>
+        </div>
 
-    <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-    </div>
+        <!-- Navigation Bar -->
+        <div class="navbar ">
+            <a href="#about">About</a>
+            <a href="#sejarah ">Sejarah</a>
+            <a href="#makanan">Makanan</a>
+            <a href="#wisata">Wisata</a>
+        </div>
+    </header>
 
-    <!-- The flexible grid (content) -->
-    <div class="container">
+    <!-- main -->
+    <div class=" container ">
         <main>
-            <article>
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Dec 7, 2017</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco.
-                </p>
+            <article id="sejarah">
+                <h2>Sejarah</h2>
+                <img src="./assets/sejarah.jpg" alt="">
+                <p> Sebelum tahun 1999, Makassar dikenal dengan nama Ujung Pandang seiring perluasan wilayah dari 21 Km
+                    menjadi 175,77 km berdasarkan Peraturan Pemerintah Nomor 51 tahun 1971. Tentang perubahan
+                    batas-batas daerah Kota Madya Makassar dan Kabupaten
+                    kabupaten Gowa, Maros dan Pangkajene dan kepulauan dalam Lingkungan Daerah Provinsi Sulawesi Selatan
+                    pada tanggal 31 Agustus 1971. Nama Makassar sendiri disebutkan dalam pupuh 14/3 Kitab
+                    Nagarakertagama karya Mpu Prapanca pada abad
+                    ke-14 sebagai daerah taklukkan.<span id="batas">...</span></p><span id="more">
+
+
+                    <p> Secara etimologi, sebutan Makassar berasal dari kata "Mangkasarak" yang artinya mulia dan jujur.
+                    </p>
+
+                    <p> Konon nama Makassar berasal dari sebuah peristiwa yang dianggap sangat sakral. Suatu pagi di
+                        tahun
+                        1605 di tepi pantai Tallo, Baginda Raja Tallo ke-VI kedatangan seorang lelaki berjubah putih dan
+                        besurban hijau. Hal tersebut diceritakan
+                        pada buku Asal-usul Kota-kota di Indonesia Tempo Doeloe. Pria itu diceritakan punya wajah yang
+                        teduh
+                        dan memancarkan cahaya. <br> Pria itu berjabat tangan dengan Baginda Raja. Di telapak tangannya
+                        tertulis kalimat Syahadat. </p>
+
+                    <p> Baginda Raja percaya pria berjubah itu adalah Nabi Muhammad. Hal tersebut dipercaya sebagai
+                        jejak
+                        sejarah asal usul nama Makassar, yang diambil dari Akkasaraki Nabiyya. Artinya adalah nabi
+                        menampakkan diri. Setelah mengalami perubahan
+                        nama dua kali, kemudian Kota ini dinamakan kembali menjadi Makassar pada 13 Oktober sesuai
+                        Peraturan
+                        Pemerintah Nomor 86 Tahun 1999 tentang Perubahan Nama Kota Ujung Pandang menjadi Kota Makassar
+                        dalam
+                        Wilayah Provinsi Sulawesi Selatan
+                        sebagai wujud keinginan masyarakat yang mendapat dukungan DPRD bersama Pemerintah Kota.</p>
+                </span>
+                <button onclick="myFunction()" id="button-more">Lebih banyak...</button>
+
             </article>
             <br>
-            <article>
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco.
+            <article id="makanan">
+                <h2>Makanan Khas</h2>
+                <div class="col-4">
+                    <img src="./assets/coto.jpeg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./assets/konro.jpeg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./assets/pallubasa.jpeg" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./assets/sop saudara.jpeg" alt="">
+                </div>
+                <p>Kelezatan berbagai masakan Makassar memang sudah terkenal sejak lama. Tak heran jika kota terbesar di
+                    Indonesia bagian timur ini dikenal luas sebagai surga makanan. Berikut empat kuliner Makassar
+                    terbaik yang wajib Anda coba.
                 </p>
+                <ul>
+                    <li type="none">
+                        <h3> 1. Coto Makassar</h3>
+                        <img src="./assets/coto.jpeg" alt="Coto Makassar">
+                        <p>Pertama, Coto Makassar. Hidangan ini dikenal sebagai hidangan sup tertua di Nusantara.
+                            Dulunya, Makassar Coto bahkan menjadi makanan favorit keluarga kerajaan Gowa di Sulawesi
+                            Selatan. Menggunakan lusinan bumbu pilihan, perpaduan
+                            kuah kental dan daging yang empuk pasti akan membuat Anda ketagihan.</p>
+                    </li>
+                    <li type="none">
+                        <h3> 2. Konro</h3>
+                        <img src="./assets/konro.jpeg" alt="Konro">
+                        <p>Hidangan ini berupa iga sapi yang tersaji pada bentuk sup juga dibakar. Berbeda menggunakan
+                            coto, sup konro mempunyai kuah coklat yang tidak begitu kental. Rasanya spesial kaldu sapi
+                            menggunakan tambahan rempah. Sementara itu,
+                            konro bakar umumnya tersaji menggunakan siraman bumbu kacang.</p>
+                    </li>
+                    <li type="none">
+                        <h3> 3. Pallubasa</h3>
+                        <img src="./assets/pallubasa.jpeg" alt="Pallubasa">
+                        <p>Sekilas sajian ini seperti coto. Tetapi berdasarkan segi rasa kentara berbeda. Pallubasa
+                            mempunyai kuah berwarna coklat kekuningan, hal ini dikarenakan efek penggunaan bumbu kunyit.
+                            Selain itu, pallubasa memiiki rasanya yang lebih
+                            kompleks. Hidangan ini biasanya tersaji menggunakan taburan kelapa goreng dan kuning telur
+                            1/2 matang.</p>
+                    </li>
+                    <li type="none">
+                        <h3> 4. Sop Saudara</h3>
+                        <img src="./assets/sop saudara.jpeg" alt="Sop Saudara">
+                        <p>Selain berdasarkan ketiga diatas, pilihan kuliner berkuah yang harus dicoba yaitu sop
+                            saudara. Isiannya berupa irisan daging sapi, soun, & perkedel kentang. Semangkuk sop saudara
+                            paling pas disantap beserta telur asis & ikan bandeng
+                            bakar.
+                        </p>
+                    </li>
+                </ul>
             </article>
             <br>
-            <article>
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco.
+            <article id="wisata">
+                <h2>Wisata</h2>
+                <div class="col-4">
+                    <img src="./assets/pantai losari.webp" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./assets/kuri indah.webp" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./assets/galesong.webp" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="./assets/anging mamiri.webp" alt="">
+                </div>
+                <p>Makassar adalah salah satu kota metropolitan yang terdapat pada Indonesia bagian Timur. Tak heran
+                    apabila banyak loka wisata yang terdapat pada ibu kota Sulawesi Selatan itu. Bahkan banyak tempat
+                    wisata Makassar yang mempunyai keunikan
+                    & estetika alam memikat. Bagi Anda yang mencari wisata religi, pantai, edukasi, dan yang lainnya
+                    pula tersedia pada Makassar. Berikut ini kami rekomendasikan tempat wisata bagi Anda yang ingin
+                    berlibur di Makassar. Berikut 4 Tempat
+                    wisata yang harus anda kunjungi:
                 </p>
+
+                <ul>
+                    <li type="none">
+                        <h3> 1. Pantai Losari</h3>
+                        <img src="./assets/pantai losari.webp" alt="Pantai Losari">
+                        <p>Terletak pada Ujung Pandang, Pantai Losari adalah objek wisata yang patut dikunjungi saat
+                            Anda berkunjung ke Kota Makassar. Lokasinya tidak jauh dari Bandara Hasanuddin, dimana Anda
+                            mampu menempuhnya lebih kurang 1/2 jam saja.
+                            Disekitar tempat wisata ini banyak penjual oleh-oleh khas Makassar.
+                        </p>
+                    </li>
+                    <li type="none">
+                        <h3> 2. Pantai Galesong</h3>
+                        <img src="./assets/galesong.webp" alt="Pantai Galesong">
+                        <p>HKawasan Pantai Galesong adalah objek wisata yang sangat cocok buat Anda penikmat wisata air.
+                            Pantai Galesong ini mengkombinasikan pantai menggunakan kolam renang yang letaknya pada
+                            bibir pantai. Tetapi terdapat pula wisata lainnya
+                            misalnya wahana adrenalin, outbound, restoran, dan hotel.
+                        </p>
+                        <p>Pantai Galesong ini berada di kabupaten Takalar, Sulawesi Selatan. Tiket masuk buat
+                            mengunjungi pantai ini hanya Rp25 ribu per orang dan Anda telah menikmati seluruh sarana
+                            yang terdapat pada tempat pantai. Pantai Galesong mampu
+                            Anda akses setiap hari mulai jam 8 pagi sampai jam 7 malam.</p>
+                    </li>
+                    <li type="none">
+                        <h3> 3. Pantai Anging Mamiri</h3>
+                        <img src="./assets/anging mamiri.webp" alt="Pantai Anging Mamiri">
+                        <p>Anda juga dapat mengisi akhir pekan atau menyegarkan pikiran dari kesibukan pekerjaan dengan
+                            berlibur ke Pantai Anging Mammiri. Bersebelahan dengan Pantai Tanjung Bayang, Pantai Anging
+                            Mamiri juga panorama alam yang sangat indah.</p>
+                    </li>
+                    <li type="none">
+                        <h3> 4. Pantai Kuri Indah</h3>
+                        <img src="./assets/kuri indah.webp" alt="Pantai Kuri Indah">
+                        <p>Salah satu tempat wisata pada Maros yang bisa Anda kunjungi yaitu Pantai Kuri Indah yang
+                            punya bibir pantai dihiasi lempengan batu pada atasnya. Keindahan pantai ini akan
+                            benar-benar mempesona waktu mentari tenggelam. Anda juga
+                            bisa berkeliling hutan mangrove dengan memakai perahu nelayan.
+                        </p>
+                    </li>
+                </ul>
             </article>
         </main>
-        <aside class="identitas">
-            <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            <h3>More Text</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
-            <div class="fakeimg" style="height:60px;">Image</div><br>
-            <div class="fakeimg" style="height:60px;">Image</div><br>
-            <div class="fakeimg" style="height:60px;">Image</div>
+        <aside id="about">
+            <h2>Tentang Saya</h2>
+            <img src="./assets/foto.png " alt=" fotoku ">
+            <p>Hai.. , Perkenalkan nama saya <b>Tegar Alfalakh Thamrin</b>. Peserta SIB Batch 3 pada kelas Front End dan
+                React Developer.
+            </p>
+            <p>Saya berasal dari <b>Kota Makassar</b>, dan sekarang sedang berada di Jakarta dan kuliah di
+                <b>Universitas
+                    Pertamina</b>.
+            </p>
+            <select id="sosmed" onchange="outputSosmed()">
+                <option value="" selected>Sosial Media</option>
+                <option value="sosmed1">Instagram</option>
+                <option value="sosmed2">Discord</option>
+                <option value="sosmed3">Github</option>
+            </select>
+            <div id="sosmedOutput">
+                <a href="">
+                    <p></p>
+                </a>
+            </div>
         </aside>
     </div>
 
     <!-- Footer -->
-    <div class="footer">
-        <h2>Footer</h2>
-    </div>
+    <footer>
+        <section id=" contact ">
+            <div class=" container ">
+                <address>
+                    <h3>Contact</h3>
+                    <div class=" col-3 ">
+                        <h4>Alamat</h4>
+                        <p>Jl. Rawa Simprug 7 No.35, Jakarta Selatan, DKI Jakarta</p>
+                    </div>
+                    <div class=" col-3 ">
+                        <address></address>
+                        <h4>Email</h4>
+                        <a href=" mailto:tegaralfalakh57@gmail.com ">
+                            <p>tegaralfalakh57@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class=" col-3 ">
+                        <h4>Telp/Hp</h4>
+                        <p>+62 8125 3944 323</p>
+                    </div>
+                </address>
+            </div>
 
+        </section>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2022 - Tegar Alfalakh Thamrin</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
