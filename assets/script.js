@@ -15,9 +15,9 @@ function myFunction() {
 }
 
 const listSosmed = {
-    "sosmed1": "https://www.instagram/garte666",
-    "sosmed2": "www.discordapp.com/users/483667755892080641",
-    "sosmed3": "https://github.com/violet666666"
+    "ig": "https://www.instagram/garte666",
+    "discord": "www.discordapp.com/users/483667755892080641",
+    "github": "https://github.com/violet666666"
 };
 
 function outputSosmed() {
@@ -28,7 +28,7 @@ function outputSosmed() {
         console.log(x);
         console.log(sosmed);
         if (sosmed.value == x) {
-            output.innerHTML = `${listSosmed[x]}`;
+            output.innerHTML = `<a href="${listSosmed[x]}">${listSosmed[x]}</a>`;
         }
     }
 }
