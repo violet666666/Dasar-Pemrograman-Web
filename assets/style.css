@@ -107,9 +107,10 @@ aside h2 {
     margin: 10px 0px;
 }
 
-#contact {
+.contact {
+    display: flex;
+    justify-content: center;
     padding: 20px;
-    background-color: #f9f9f9;
 }
 
 .col-3 {
@@ -118,10 +119,6 @@ aside h2 {
     float: left;
     text-align: center;
     padding: 50px 30px;
-}
-
-address {
-    margin-left: 60px;
 }
 
 address h3 {
@@ -137,10 +134,6 @@ address h3 {
 
 footer {
     text-align: center;
-}
-
-#contact {
-    padding: 20px;
 }
 
 .copyright {
