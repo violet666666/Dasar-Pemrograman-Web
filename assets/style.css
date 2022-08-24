@@ -108,6 +108,7 @@ aside h2 {
 }
 
 #contact {
+    padding: 20px;
     background-color: #f9f9f9;
 }
 
@@ -117,6 +118,10 @@ aside h2 {
     float: left;
     text-align: center;
     padding: 50px 30px;
+}
+
+address {
+    margin-left: 60px;
 }
 
 address h3 {
@@ -187,24 +192,19 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-
     .container,
     .navbar {
         flex-direction: column;
     }
-
     .col-3 {
         width: 100%;
     }
-
     header p {
         text-align: center;
     }
-
     .col-4 {
         width: 50%;
     }
-
     aside {
         margin: 0px 20px;
     }
